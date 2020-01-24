@@ -1,0 +1,28 @@
+{
+    "clientId": "CF27JBMB8GN4CHAQI6Q",
+    "clientSecret": "fd48e5a6084d611e4fd9c6f0f8fcbca16d221ace",
+    "env": "test",
+    "baseUrl": {
+        "test": "https://payout-gamma.cashfree.com",
+        "prod": "https://payout-api.cashfree.com"
+    },
+    "url":{
+        "auth": "/payout/v1/authorize",
+        "requestBatchTransfer": "/payout/v1/requestBatchTransfer",
+        "getBatchTransferStatus": "/payout/v1/getBatchTransferStatus?batchTransferId="
+    },
+    "BatchTransfer": {
+        "batchTransferId" : "Test_Bank_Account_Format_23",
+        "batchFormat": "BANK_ACCOUNT" ,
+        "deleteBene" : 1, 
+        "batch" : [
+            {"transferId" : "PTM_00121241112", 
+            "amount" : "12",
+            "phone" : "9999999999",
+            "bankAccount" : "9999999999" , 
+            "ifsc" : "PYTM0_000001",
+            "email" : "bahrat@gocashfree.com", 
+            "name": "bharat"}
+            ]
+        }
+}
