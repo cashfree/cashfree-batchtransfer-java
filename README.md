@@ -49,18 +49,20 @@ Sample Fields to add a beneficiary using bankAccount and ifsc:
   3. deleteBene: optional field, needed if batch format is bank account, to delete beneficiaries that already exist with same account details but different names. If set will delete and readd the beneficiary, else will throw an error.
   4. batch: array of transfers to be done.
   
-  Batch format:
+  Batch format for BANK_TRANSFER:
+  
   1. transferId: unique identifier of the transfer.
   2. amount: amount to be sent.
-  <br/>
-  //for batch format BANK_TRANSFER
   3. phone: phone number of the recepient.
   4. bankAccount: back account of the recepient.
   5. ifsc: recepients bank accounts's ifsc.
   6. email: email of the recepient.
   7. name: name of the recepient.
   <br/>
-  //for batch format BENEFICIARY_ID
+  Batch format for BENEFICIARY_ID
+  
+  1. transferId: unique identifier of the transfer.
+  2. amount: amount to be sent.
   3.beneId: id of the beneficiary
 
 ## Usage
