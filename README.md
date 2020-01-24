@@ -52,12 +52,14 @@ Sample Fields to add a beneficiary using bankAccount and ifsc:
   Batch format:
   1. transferId: unique identifier of the transfer.
   2. amount: amount to be sent.
+  <br/>
   //for batch format BANK_TRANSFER
   3. phone: phone number of the recepient.
   4. bankAccount: back account of the recepient.
   5. ifsc: recepients bank accounts's ifsc.
   6. email: email of the recepient.
   7. name: name of the recepient.
+  <br/>
   //for batch format BENEFICIARY_ID
   3.beneId: id of the beneficiary
 
