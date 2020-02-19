@@ -11,8 +11,8 @@ This kit is linked to the standard transfer flow. Go [here](https://dev.cashfree
 The following kit contains the following functionalities:
     <ol>
     <li> [getToken](https://dev.cashfree.com/api-reference/payouts-api#authorise): to get the auth token to be used in all          following calls.
-    <li> [requestbBatchTrasnfer](https://docs.cashfree.com/docs/payout/guide/#batchtransfer-api): to request a batch transfer
-    <li> [getBatchTransferStatus](https://docs.cashfree.com/docs/payout/guide/#get-batch-transfer-status-request): to get the status of the requested batch transfer
+    <li> [requestBatchTrasnfer](https://dev.cashfree.com/api-reference/payouts-api#batch-transfer): to request a batch transfer
+    <li> [getBatchTransferStatus](https://dev.cashfree.com/api-reference/payouts-api#get-batch-transfer-status-request): to get the status of the requested batch transfer
     </ol>
 
 ## Build Steps
@@ -40,9 +40,8 @@ Your IP has to be whitelisted to hit Cashfree's server. For more information ple
 
 ### Batch Transfer:
 The following kit needs batch transfer details in order to create a batch transfer.
-For more information on batch transfers please go [here](https://dev.cashfree.com/api-reference/payouts-api#batch-transfer)
-
 The kit reads the batchTransfer details from the config file. Under the BatchTransfer section. For a list of required fields go [here](https://dev.cashfree.com/api-reference/payouts-api#batch-transfer).
+
 Sample Fields to add a beneficiary using bankAccount and ifsc:
   1. batchTransferId: uniqueId of the batch transfer.
   2. batchFormat: format of the batch transfer, accepted values: BANK_ACCOUNT and BENEFICIARY_ID.
