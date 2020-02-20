@@ -3,7 +3,7 @@
 Below is an integration flow on how to use Cashfree's payouts.
 Please go through the payout docs [here](https://dev.cashfree.com/payouts)
 <br/>
-This kit is linked to the standard transfer flow. Go [here](https://dev.cashfree.com/payouts/integrations/standard-transfer) to get a better understanding.
+This kit is linked to the standard transfer flow. Go [here](https://dev.cashfree.com/payouts/integrations/batch-transfer) to get a better understanding.
 <br/>
 
 ## Functionalities
@@ -54,7 +54,7 @@ Sample Fields to add a beneficiary using bankAccount and ifsc:
   2. amount: amount to be sent.
   3. phone: phone number of the recipient.
   4. bankAccount: bank account of the recipient.
-  5. ifsc: recipients bank accounts ifsc.
+  5. ifsc: recipient's bank account's ifsc.
   6. email: email of the recipient.
   7. name: name of the recipient.
   <br/>
