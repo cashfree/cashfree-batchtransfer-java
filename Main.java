@@ -9,7 +9,7 @@ The following script contains the following functionalities :
 
 All the data used by the script can be found in the config.json . This includes the clientId, clientSecret, Beneficiary object, Transaction Object.
 You can change keep changing the values in the config file and running the script.
-Please enter your clientId and clientSecret, along with the appropriate enviornment, beneficiary details and request details
+Please enter your clientId and clientSecret, along with the appropriate environment, beneficiary details and request details
 */
 
 
