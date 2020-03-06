@@ -25,4 +25,12 @@
         <lombok.version>1.18.6</lombok.version>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.cashfree</groupId>
+            <artifactId>cashfreelibjava</artifactId>
+            <version>0.0.1</version>
+        </dependency>
+    </dependencies>
+
 </project>
